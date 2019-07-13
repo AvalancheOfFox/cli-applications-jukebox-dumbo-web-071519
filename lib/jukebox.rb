@@ -50,7 +50,7 @@ def run
     when "list"
       list(songs)
     else
-      puts "Invalid entry."
+      puts "Invalid entry"
     end
   end
 end
