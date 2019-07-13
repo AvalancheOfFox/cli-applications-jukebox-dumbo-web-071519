@@ -48,7 +48,7 @@ def run
     when "play"
       play(songs)
     when "list"
-      list
+      list(songs)
     else
       puts "Invalid entry."
     end
