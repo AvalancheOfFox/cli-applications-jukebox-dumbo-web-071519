@@ -47,6 +47,8 @@ def run
     play(songs)
   when "list"
     list
+  else
+    puts "Invalid entry."
   end
 end
 
