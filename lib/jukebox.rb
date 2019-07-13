@@ -34,7 +34,7 @@ def play(songs)
   end
 end
 
-def run
+def run(songs)
   help
   while true do
   puts "Please enter a command:"
