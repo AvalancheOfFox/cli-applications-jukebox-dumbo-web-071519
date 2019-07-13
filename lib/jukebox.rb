@@ -44,7 +44,10 @@ def run
   when "exit"
     exit_jukebox
   when "play"
-    play(command)
+    play(songs)
+  when "list"
+    list
+  end
 end
 
 def exit_jukebox
