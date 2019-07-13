@@ -26,7 +26,7 @@ def play(songs)
  puts "Please enter a song name or number:"
  userInput = gets.chomp
  if userInput.to_i >= 1 && userInput.to_i <= songs.length 
-   puts "Now Playing #{}"
+   puts "Now Playing #{songs[userInput.to_i]}"
 end
 
 
