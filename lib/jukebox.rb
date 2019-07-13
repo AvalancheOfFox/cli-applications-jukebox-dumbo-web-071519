@@ -39,9 +39,12 @@ def run
   puts "Please enter a command:"
   command = gets.chomp
   case command
-  when command = "help"
+  when "help"
     help
-    when
+  when "exit"
+    exit_jukebox
+  when "play"
+    play(command)
 end
 
 def exit_jukebox
