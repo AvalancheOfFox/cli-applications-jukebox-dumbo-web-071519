@@ -36,20 +36,22 @@ end
 
 def run
   help
+  while true do
   puts "Please enter a command:"
   command = gets.chomp
   case command
-  when "help"
-    help
-  when "exit"
-    exit_jukebox
-    break
-  when "play"
-    play(songs)
-  when "list"
-    list
-  else
-    puts "Invalid entry."
+    when "help"
+      help
+    when "exit"
+      exit_jukebox
+      break
+    when "play"
+      play(songs)
+    when "list"
+      list
+    else
+      puts "Invalid entry."
+    end
   end
 end
 
