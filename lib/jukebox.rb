@@ -29,6 +29,9 @@ def play(songs)
    puts "Now Playing #{songs[userInput.to_i-1]}"
    elsif songs.include?(userInput)
    puts "Playing #{songs.find{|song| song == userInput}}."
+   else
+    puts "Invalid input, please try again"
+  end
 end
 
 
